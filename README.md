@@ -51,13 +51,16 @@ Este proyecto implementa pruebas automatizadas para un ecommerce de ejemplo util
    ```bash
    git clone https://github.com/edwinHiguera/automatizacion_ecommerce.git
 
-   
-2. Ejecutar las pruebas con Maven:
-   ```bash
-   git clone https://github.com/edwinHiguera/automatizacion_ecommerce.git
+Ejecutar las pruebas con Maven:
 
+bash
+Copiar
+Editar
+mvn test -DsuiteXmlFile=testng.xml
+Generar reporte Allure (local):
 
-3. Generar reporte Allure (local):
-```bash 
-allure serve target/allure-results 
+bash
+Copiar
+Editar
+allure serve target/allure-results
 
