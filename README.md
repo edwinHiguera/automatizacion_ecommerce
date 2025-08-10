@@ -1,6 +1,3 @@
-# automatizacion_ecommerce
-Proyecto de automatización de pruebas funcionales para un ecommerce de demostración, utilizando Selenium WebDriver, Java, TestNG y Allure para la ejecución y reporte de tests. Incluye pruebas de búsqueda, carrito de compras, checkout y pago, con estructura modular basada en el patrón Page Object Model (POM).
-
 # Proyecto Automatización Ecommerce
 
 Este proyecto implementa pruebas automatizadas para un ecommerce de ejemplo utilizando las siguientes tecnologías:
@@ -51,16 +48,12 @@ Este proyecto implementa pruebas automatizadas para un ecommerce de ejemplo util
    ```bash
    git clone https://github.com/edwinHiguera/automatizacion_ecommerce.git
 
-Ejecutar las pruebas con Maven:
+2. Ejecutar las pruebas con Maven:
+   ```bash
+   mvn test -DsuiteXmlFile=testng.xml
 
-bash
-Copiar
-Editar
-mvn test -DsuiteXmlFile=testng.xml
-Generar reporte Allure (local):
+2. Generar y visualizar reporte Allure localmente:
+   ```bash
+   allure serve target/allure-results
 
-bash
-Copiar
-Editar
-allure serve target/allure-results
-
+Se ejecutan pruebas automáticamente en cada push o pull request a la rama main, y se genera un reporte Allure que se despliega en la rama gh-pages.
