@@ -34,8 +34,8 @@ jobs:
       - name: Set DISPLAY variable
         run: echo "DISPLAY=:99" >> $GITHUB_ENV
 
-      - name: Run tests with Maven
-        run: mvn clean test
+      - name: Run tests with Maven using testng.xml
+        run: mvn test -DsuiteXmlFile=testng.xml
 
       - name: Install Allure CLI manually
         run: |
