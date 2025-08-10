@@ -56,7 +56,7 @@ jobs:
       - name: Deploy Allure Report to GitHub Pages
         if: success()
         env:
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
