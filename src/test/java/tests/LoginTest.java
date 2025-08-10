@@ -46,7 +46,7 @@ public class LoginTest {
     @Description("Test verifies that login fails and error message is shown when password is incorrect.")
     public void failedLogin(){
         loginPage.performLogin(config.getProperty("userEmail"), config.getProperty("wrongPassword"));
-        Assert.assertFalse(loginPage.isLoginFailed(), "Error message is not displayed.");
+        Assert.assertTrue(loginPage.isLoginFailed(), "Error message is not displayed.");
     }
 
     @Test(description = "Logout after successful login")
