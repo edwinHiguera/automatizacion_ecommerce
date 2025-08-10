@@ -8,4 +8,46 @@
         </classes>
     </test>
 
+    <test name="Category Search Tests">
+        <classes>
+            <class name="tests.CategorySearchTests"/>
+        </classes>
+    </test>
+
+    <test name="Brand Search Tests">
+        <classes>
+            <class name="tests.BrandSearchTests"/>
+        </classes>
+    </test>
+
+    <test name="Product View and Add Tests">
+        <classes>
+            <class name="tests.ViewAddProductTest"/>
+        </classes>
+    </test>
+
+    <test name="Cart Validation Tests">
+        <classes>
+            <class name="tests.CartValidationTest"/>
+        </classes>
+    </test>
+
+    <test name="Checkout Tests">
+        <classes>
+            <class name="tests.CheckoutTest"/>
+        </classes>
+    </test>
+
+    <test name="Payment Tests">
+        <classes>
+            <class name="tests.PaymentTest"/>
+        </classes>
+    </test>
+
+    <test name="Order Placed Tests">
+        <classes>
+            <class name="tests.OrderPlacedTest"/>
+        </classes>
+    </test>
+
 </suite>
