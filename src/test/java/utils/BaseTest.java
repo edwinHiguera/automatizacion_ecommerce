@@ -6,10 +6,13 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.time.Duration;
 import java.util.List;
 
@@ -26,9 +29,25 @@ public class BaseTest {
     }
 
     // Browser connection method
-    public WebDriver connectBrowser(){
+    public WebDriver connectBrowser() {
         WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+
+        ChromeOptions options = new ChromeOptions();
+
+        // Opciones necesarias para correr en CI sin GUI
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--headless=new");  // o "--headless" para versiones anteriores
+
+        // Crear un directorio temporal único para el perfil del usuario
+        try {
+            Path tempUserDataDir = Files.createTempDirectory("chrome-user-data-dir");
+            options.addArguments("--user-data-dir=" + tempUserDataDir.toAbsolutePath().toString());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        driver = new ChromeDriver(options);
         return driver;
     }
 
