@@ -31,7 +31,7 @@ Sigue estos pasos para configurar el proyecto en tu entorno local:
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone <URL_DEL_REPOSITORIO>
+    git clone git@github.com:edwinHiguera/automatizacion_ecommerce.git
     cd automatizacion_ecommerce
     ```
 
@@ -78,3 +78,33 @@ El proyecto sigue el patrón de diseño **Page Object Model (POM)** para separar
 -   `src/test/java/utils`: Clases de utilidad o helpers que pueden ser compartidas entre diferentes pruebas (ej. manejo del driver, listeners).
 -   `pom.xml`: El archivo de configuración de Maven. Define las dependencias, plugins y configuración de la compilación y ejecución.
 -   `testng.xml`: El archivo de configuración de TestNG. Define las suites de prueba, el orden de ejecución y los parámetros de los tests.
+
+
+## 8. Casos de Prueba Ejecutados
+
+- **Search Tests**
+  - `testSearchBrandHM`
+  - `testSearchBrandPolo`
+  - `testSearchWomenDress`
+  - `testSearchWomenTops`
+
+- **Cart Validation Tests**
+  - `testValidateCartPoloTshirt`
+
+- **Checkout Tests**
+  - `testCheckoutPoloTshirt`
+
+- **Login Tests**
+  - `failedLogin`
+  - `logoutTest`
+  - `successfulLogin`
+
+- **Order Placed Tests**
+  - `testPaymentPoloTshirt`
+
+- **Payment Tests**
+  - `testPaymentPoloTshirt`
+
+- **View/Add Product Tests**
+  - `testViewAddPoloTshirt`
+
