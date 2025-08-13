@@ -57,6 +57,7 @@ public class BrandSearchPage extends BaseTest {
         // Validate URL
         String expectedBrandURL = "https://automationexercise.com/brand_products/" + brandName.replace(" ", "%20"); // Replace spaces in URL
         assertCurrentUrl(expectedBrandURL);
+        System.out.println("prueba qa demo");
     }
 
 }
