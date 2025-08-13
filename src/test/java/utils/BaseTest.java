@@ -28,7 +28,7 @@ public class BaseTest {
     public BaseTest() {
     }
 
-    // Browser connection method
+    // Browser connection method //prueba
     public WebDriver connectBrowser() {
         WebDriverManager.chromedriver().setup();
 
