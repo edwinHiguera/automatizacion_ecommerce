@@ -37,7 +37,7 @@ public class BaseTest {
         // Opciones necesarias para correr en CI sin GUI
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
-        options.addArguments("--headless=new");  // o "--headless" para versiones anteriores
+        options.addArguments("--headless=new");  // o "--headless" ejecuta sin interfaz para actions
 
         // Crear un directorio temporal único para el perfil del usuario
         try {
@@ -105,7 +105,7 @@ public class BaseTest {
 
     // Wait for element visibility
     public WebElement waitForVisibility(By locator, int seconds) {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(seconds));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(seconds)); //explicit wait
         return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 

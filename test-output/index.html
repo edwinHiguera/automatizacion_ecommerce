@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-AutomationExercise_Suite" class="navigator-link">
+              <span class="suite-name border-passed">AutomationExercise Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-AutomationExercise_Suite" class="navigator-link ">
+                    <span>C:\Users\edwin\IdeaProjects\automatizacion_ecommerce\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-AutomationExercise_Suite" class="navigator-link ">
+                    <span class="test-stats">8 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-AutomationExercise_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-AutomationExercise_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-AutomationExercise_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-AutomationExercise_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-AutomationExercise_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-AutomationExercise_Suite" class="hide-methods passed suite-AutomationExercise_Suite"> (hide)</a> <!-- hide-methods passed suite-AutomationExercise_Suite -->
+                      <a href="#" panel-name="suite-AutomationExercise_Suite" class="show-methods passed suite-AutomationExercise_Suite"> (show)</a> <!-- show-methods passed suite-AutomationExercise_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-AutomationExercise_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationExercise_Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="failedLogin">failedLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationExercise_Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationExercise_Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="successfulLogin">successfulLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationExercise_Suite" title="tests.CheckoutTest" class="method navigator-link" hash-for-method="testCheckoutPoloTshirt">testCheckoutPoloTshirt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationExercise_Suite" title="tests.PaymentTest" class="method navigator-link" hash-for-method="testPaymentPoloTshirt">testPaymentPoloTshirt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationExercise_Suite" title="tests.OrderPlacedTest" class="method navigator-link" hash-for-method="testPaymentPoloTshirt">testPaymentPoloTshirt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationExercise_Suite" title="tests.BrandSearchTests" class="method navigator-link" hash-for-method="testSearchBrandHM">testSearchBrandHM</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationExercise_Suite" title="tests.BrandSearchTests" class="method navigator-link" hash-for-method="testSearchBrandPolo">testSearchBrandPolo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationExercise_Suite" title="tests.CategorySearchTests" class="method navigator-link" hash-for-method="testSearchWomenDress">testSearchWomenDress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationExercise_Suite" title="tests.CategorySearchTests" class="method navigator-link" hash-for-method="testSearchWomenTops">testSearchWomenTops</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationExercise_Suite" title="tests.CartValidationTest" class="method navigator-link" hash-for-method="testValidateCartPoloTshirt">testValidateCartPoloTshirt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationExercise_Suite" title="tests.ViewAddProductTest" class="method navigator-link" hash-for-method="testViewAddPoloTshirt">testViewAddPoloTshirt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-AutomationExercise_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-AutomationExercise_Suite" class="panel AutomationExercise_Suite">
+          <div class="suite-AutomationExercise_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CartValidationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateCartPoloTshirt">
+                  </a> <!-- testValidateCartPoloTshirt -->
+                  <span class="method-name">testValidateCartPoloTshirt</span>
+                  <em>
+(Validate adding a Polo T-shirt to the cart and verify quantity)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationExercise_Suite-class-passed -->
+          <div class="suite-AutomationExercise_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CheckoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckoutPoloTshirt">
+                  </a> <!-- testCheckoutPoloTshirt -->
+                  <span class="method-name">testCheckoutPoloTshirt</span>
+                  <em>
+(Complete checkout process for Polo T-shirt)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationExercise_Suite-class-passed -->
+          <div class="suite-AutomationExercise_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ViewAddProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testViewAddPoloTshirt">
+                  </a> <!-- testViewAddPoloTshirt -->
+                  <span class="method-name">testViewAddPoloTshirt</span>
+                  <em>
+(Search Polo brand, view details and add product to cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationExercise_Suite-class-passed -->
+          <div class="suite-AutomationExercise_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="failedLogin">
+                  </a> <!-- failedLogin -->
+                  <span class="method-name">failedLogin</span>
+                  <em>
+(Failed login with invalid password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest">
+                  </a> <!-- logoutTest -->
+                  <span class="method-name">logoutTest</span>
+                  <em>
+(Logout after successful login)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="successfulLogin">
+                  </a> <!-- successfulLogin -->
+                  <span class="method-name">successfulLogin</span>
+                  <em>
+(Successful login with valid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationExercise_Suite-class-passed -->
+          <div class="suite-AutomationExercise_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.OrderPlacedTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPaymentPoloTshirt">
+                  </a> <!-- testPaymentPoloTshirt -->
+                  <span class="method-name">testPaymentPoloTshirt</span>
+                  <em>
+(Place order for Polo T-shirt and validate order placement)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationExercise_Suite-class-passed -->
+          <div class="suite-AutomationExercise_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.PaymentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPaymentPoloTshirt">
+                  </a> <!-- testPaymentPoloTshirt -->
+                  <span class="method-name">testPaymentPoloTshirt</span>
+                  <em>
+(Test payment process for Polo T-shirt)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationExercise_Suite-class-passed -->
+          <div class="suite-AutomationExercise_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CategorySearchTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchWomenDress">
+                  </a> <!-- testSearchWomenDress -->
+                  <span class="method-name">testSearchWomenDress</span>
+                  <em>
+(Search and validate Women Dress category)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchWomenTops">
+                  </a> <!-- testSearchWomenTops -->
+                  <span class="method-name">testSearchWomenTops</span>
+                  <em>
+(Search and validate Women Tops category)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationExercise_Suite-class-passed -->
+          <div class="suite-AutomationExercise_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.BrandSearchTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchBrandHM">
+                  </a> <!-- testSearchBrandHM -->
+                  <span class="method-name">testSearchBrandHM</span>
+                  <em>
+(Search and validate the brand 'H&M')                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchBrandPolo">
+                  </a> <!-- testSearchBrandPolo -->
+                  <span class="method-name">testSearchBrandPolo</span>
+                  <em>
+(Search and validate the brand 'Polo')                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationExercise_Suite-class-passed -->
+        </div> <!-- panel AutomationExercise_Suite -->
+        <div panel-name="test-xml-AutomationExercise_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\edwin\IdeaProjects\automatizacion_ecommerce\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;AutomationExercise Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Category Search Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CategorySearchTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Category Search Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Brand Search Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.BrandSearchTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Brand Search Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Product View and Add Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.ViewAddProductTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Product View and Add Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Cart Validation Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CartValidationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Cart Validation Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Checkout Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CheckoutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Checkout Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Payment Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.PaymentTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Payment Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Order Placed Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.OrderPlacedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Order Placed Tests --&gt;
+&lt;/suite&gt; &lt;!-- AutomationExercise Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AutomationExercise_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AutomationExercise Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Category Search Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Brand Search Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Product View and Add Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Cart Validation Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Checkout Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Payment Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Order Placed Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AutomationExercise_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AutomationExercise Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AutomationExercise_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AutomationExercise Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AutomationExercise_Suite');
+function tableData_AutomationExercise_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'logoutTest')
+data.setCell(0, 2, 'tests.LoginTest')
+data.setCell(0, 3, 146135);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testPaymentPoloTshirt')
+data.setCell(1, 2, 'tests.OrderPlacedTest')
+data.setCell(1, 3, 11997);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testPaymentPoloTshirt')
+data.setCell(2, 2, 'tests.PaymentTest')
+data.setCell(2, 3, 10370);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testCheckoutPoloTshirt')
+data.setCell(3, 2, 'tests.CheckoutTest')
+data.setCell(3, 3, 8977);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testValidateCartPoloTshirt')
+data.setCell(4, 2, 'tests.CartValidationTest')
+data.setCell(4, 3, 8169);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testViewAddPoloTshirt')
+data.setCell(5, 2, 'tests.ViewAddProductTest')
+data.setCell(5, 3, 3554);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testSearchWomenTops')
+data.setCell(6, 2, 'tests.CategorySearchTests')
+data.setCell(6, 3, 2699);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testSearchBrandPolo')
+data.setCell(7, 2, 'tests.BrandSearchTests')
+data.setCell(7, 3, 2154);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'successfulLogin')
+data.setCell(8, 2, 'tests.LoginTest')
+data.setCell(8, 3, 2098);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testSearchWomenDress')
+data.setCell(9, 2, 'tests.CategorySearchTests')
+data.setCell(9, 3, 2005);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testSearchBrandHM')
+data.setCell(10, 2, 'tests.BrandSearchTests')
+data.setCell(10, 3, 1900);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'failedLogin')
+data.setCell(11, 2, 'tests.LoginTest')
+data.setCell(11, 3, 673);
+window.suiteTableData['AutomationExercise_Suite']= { tableData: data, tableDiv: 'times-div-AutomationExercise_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-AutomationExercise_Suite">
+              </div> <!-- times-div-AutomationExercise_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AutomationExercise_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AutomationExercise Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AutomationExercise_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AutomationExercise_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">failedLogin</span>
+                <span class="method-start">4968 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5650 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5811 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logoutTest</span>
+                <span class="method-start">8246 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">154383 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">154551 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">successfulLogin</span>
+                <span class="method-start">156458 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">158557 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CategorySearchTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">158712 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchWomenDress</span>
+                <span class="method-start">162085 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">164092 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">164266 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchWomenTops</span>
+                <span class="method-start">167440 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">170141 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.BrandSearchTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">170313 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchBrandHM</span>
+                <span class="method-start">173724 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">175626 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">176482 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchBrandPolo</span>
+                <span class="method-start">179896 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">182052 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ViewAddProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">182832 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testViewAddPoloTshirt</span>
+                <span class="method-start">186181 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">189737 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CartValidationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">189957 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testValidateCartPoloTshirt</span>
+                <span class="method-start">193409 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">201579 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">201841 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCheckoutPoloTshirt</span>
+                <span class="method-start">205982 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">214961 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PaymentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">215171 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPaymentPoloTshirt</span>
+                <span class="method-start">219106 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">229477 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.OrderPlacedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">229684 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPaymentPoloTshirt</span>
+                <span class="method-start">234763 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">246762 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

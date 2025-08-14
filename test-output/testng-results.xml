@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-14T10:41:07 COT" name="AutomationExercise Suite" finished-at="2025-08-14T10:45:14 COT" duration-ms="247056">
+    <groups>
+    </groups>
+    <test started-at="2025-08-14T10:41:07 COT" name="Login Tests" finished-at="2025-08-14T10:43:46 COT" duration-ms="158728">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@25be7b63]" started-at="2025-08-14T10:41:07 COT" name="setUp" finished-at="2025-08-14T10:41:12 COT" duration-ms="4924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="failedLogin()[pri:0, instance:tests.LoginTest@25be7b63]" started-at="2025-08-14T10:41:12 COT" name="failedLogin" description="Failed login with invalid password" finished-at="2025-08-14T10:41:13 COT" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@25be7b63]" started-at="2025-08-14T10:41:13 COT" name="tearDown" finished-at="2025-08-14T10:41:13 COT" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@25be7b63]" started-at="2025-08-14T10:41:13 COT" name="setUp" finished-at="2025-08-14T10:41:16 COT" duration-ms="2434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logoutTest()[pri:0, instance:tests.LoginTest@25be7b63]" started-at="2025-08-14T10:41:16 COT" name="logoutTest" description="Logout after successful login" finished-at="2025-08-14T10:43:42 COT" duration-ms="146135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@25be7b63]" started-at="2025-08-14T10:43:42 COT" name="tearDown" finished-at="2025-08-14T10:43:42 COT" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@25be7b63]" started-at="2025-08-14T10:43:42 COT" name="setUp" finished-at="2025-08-14T10:43:44 COT" duration-ms="1905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="successfulLogin()[pri:0, instance:tests.LoginTest@25be7b63]" started-at="2025-08-14T10:43:44 COT" name="successfulLogin" description="Successful login with valid credentials" finished-at="2025-08-14T10:43:46 COT" duration-ms="2098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@25be7b63]" started-at="2025-08-14T10:43:46 COT" name="tearDown" finished-at="2025-08-14T10:43:46 COT" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Login Tests -->
+    <test started-at="2025-08-14T10:43:46 COT" name="Category Search Tests" finished-at="2025-08-14T10:43:58 COT" duration-ms="11597">
+      <class name="tests.CategorySearchTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CategorySearchTests@23941fb4]" started-at="2025-08-14T10:43:46 COT" name="setUp" finished-at="2025-08-14T10:43:49 COT" duration-ms="3371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSearchWomenDress()[pri:0, instance:tests.CategorySearchTests@23941fb4]" started-at="2025-08-14T10:43:49 COT" name="testSearchWomenDress" description="Search and validate Women Dress category" finished-at="2025-08-14T10:43:51 COT" duration-ms="2005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchWomenDress -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CategorySearchTests@23941fb4]" started-at="2025-08-14T10:43:51 COT" name="tearDown" finished-at="2025-08-14T10:43:52 COT" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CategorySearchTests@23941fb4]" started-at="2025-08-14T10:43:52 COT" name="setUp" finished-at="2025-08-14T10:43:55 COT" duration-ms="3173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSearchWomenTops()[pri:0, instance:tests.CategorySearchTests@23941fb4]" started-at="2025-08-14T10:43:55 COT" name="testSearchWomenTops" description="Search and validate Women Tops category" finished-at="2025-08-14T10:43:57 COT" duration-ms="2699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchWomenTops -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CategorySearchTests@23941fb4]" started-at="2025-08-14T10:43:57 COT" name="tearDown" finished-at="2025-08-14T10:43:58 COT" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CategorySearchTests -->
+    </test> <!-- Category Search Tests -->
+    <test started-at="2025-08-14T10:43:58 COT" name="Brand Search Tests" finished-at="2025-08-14T10:44:10 COT" duration-ms="12516">
+      <class name="tests.BrandSearchTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.BrandSearchTests@415b0b49]" started-at="2025-08-14T10:43:58 COT" name="setUp" finished-at="2025-08-14T10:44:01 COT" duration-ms="3410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSearchBrandHM()[pri:0, instance:tests.BrandSearchTests@415b0b49]" started-at="2025-08-14T10:44:01 COT" name="testSearchBrandHM" description="Search and validate the brand &#039;H&amp;M&#039;" finished-at="2025-08-14T10:44:03 COT" duration-ms="1900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchBrandHM -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BrandSearchTests@415b0b49]" started-at="2025-08-14T10:44:03 COT" name="tearDown" finished-at="2025-08-14T10:44:04 COT" duration-ms="853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.BrandSearchTests@415b0b49]" started-at="2025-08-14T10:44:04 COT" name="setUp" finished-at="2025-08-14T10:44:07 COT" duration-ms="3412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSearchBrandPolo()[pri:0, instance:tests.BrandSearchTests@415b0b49]" started-at="2025-08-14T10:44:07 COT" name="testSearchBrandPolo" description="Search and validate the brand &#039;Polo&#039;" finished-at="2025-08-14T10:44:09 COT" duration-ms="2154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchBrandPolo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BrandSearchTests@415b0b49]" started-at="2025-08-14T10:44:09 COT" name="tearDown" finished-at="2025-08-14T10:44:10 COT" duration-ms="774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.BrandSearchTests -->
+    </test> <!-- Brand Search Tests -->
+    <test started-at="2025-08-14T10:44:10 COT" name="Product View and Add Tests" finished-at="2025-08-14T10:44:17 COT" duration-ms="7121">
+      <class name="tests.ViewAddProductTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ViewAddProductTest@5167f57d]" started-at="2025-08-14T10:44:10 COT" name="setUp" finished-at="2025-08-14T10:44:13 COT" duration-ms="3348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testViewAddPoloTshirt()[pri:0, instance:tests.ViewAddProductTest@5167f57d]" started-at="2025-08-14T10:44:13 COT" name="testViewAddPoloTshirt" description="Search Polo brand, view details and add product to cart" finished-at="2025-08-14T10:44:17 COT" duration-ms="3554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testViewAddPoloTshirt -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ViewAddProductTest@5167f57d]" started-at="2025-08-14T10:44:17 COT" name="tearDown" finished-at="2025-08-14T10:44:17 COT" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ViewAddProductTest -->
+    </test> <!-- Product View and Add Tests -->
+    <test started-at="2025-08-14T10:44:17 COT" name="Cart Validation Tests" finished-at="2025-08-14T10:44:29 COT" duration-ms="11881">
+      <class name="tests.CartValidationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CartValidationTest@74287ea3]" started-at="2025-08-14T10:44:17 COT" name="setUp" finished-at="2025-08-14T10:44:21 COT" duration-ms="3450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testValidateCartPoloTshirt()[pri:0, instance:tests.CartValidationTest@74287ea3]" started-at="2025-08-14T10:44:21 COT" name="testValidateCartPoloTshirt" description="Validate adding a Polo T-shirt to the cart and verify quantity" finished-at="2025-08-14T10:44:29 COT" duration-ms="8169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateCartPoloTshirt -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartValidationTest@74287ea3]" started-at="2025-08-14T10:44:29 COT" name="tearDown" finished-at="2025-08-14T10:44:29 COT" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CartValidationTest -->
+    </test> <!-- Cart Validation Tests -->
+    <test started-at="2025-08-14T10:44:29 COT" name="Checkout Tests" finished-at="2025-08-14T10:44:42 COT" duration-ms="13326">
+      <class name="tests.CheckoutTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CheckoutTest@4149c063]" started-at="2025-08-14T10:44:29 COT" name="setup" finished-at="2025-08-14T10:44:33 COT" duration-ms="4140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCheckoutPoloTshirt()[pri:0, instance:tests.CheckoutTest@4149c063]" started-at="2025-08-14T10:44:33 COT" name="testCheckoutPoloTshirt" description="Complete checkout process for Polo T-shirt" finished-at="2025-08-14T10:44:42 COT" duration-ms="8977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutPoloTshirt -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutTest@4149c063]" started-at="2025-08-14T10:44:42 COT" name="tearDown" finished-at="2025-08-14T10:44:42 COT" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CheckoutTest -->
+    </test> <!-- Checkout Tests -->
+    <test started-at="2025-08-14T10:44:42 COT" name="Payment Tests" finished-at="2025-08-14T10:44:57 COT" duration-ms="14509">
+      <class name="tests.PaymentTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PaymentTest@21d03963]" started-at="2025-08-14T10:44:42 COT" name="setup" finished-at="2025-08-14T10:44:46 COT" duration-ms="3933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPaymentPoloTshirt()[pri:0, instance:tests.PaymentTest@21d03963]" started-at="2025-08-14T10:44:46 COT" name="testPaymentPoloTshirt" description="Test payment process for Polo T-shirt" finished-at="2025-08-14T10:44:57 COT" duration-ms="10370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPaymentPoloTshirt -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PaymentTest@21d03963]" started-at="2025-08-14T10:44:57 COT" name="tearDown" finished-at="2025-08-14T10:44:57 COT" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PaymentTest -->
+    </test> <!-- Payment Tests -->
+    <test started-at="2025-08-14T10:44:57 COT" name="Order Placed Tests" finished-at="2025-08-14T10:45:14 COT" duration-ms="17343">
+      <class name="tests.OrderPlacedTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.OrderPlacedTest@7905a0b8]" started-at="2025-08-14T10:44:57 COT" name="setup" finished-at="2025-08-14T10:45:02 COT" duration-ms="5078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPaymentPoloTshirt()[pri:0, instance:tests.OrderPlacedTest@7905a0b8]" started-at="2025-08-14T10:45:02 COT" name="testPaymentPoloTshirt" description="Place order for Polo T-shirt and validate order placement" finished-at="2025-08-14T10:45:14 COT" duration-ms="11997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPaymentPoloTshirt -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.OrderPlacedTest@7905a0b8]" started-at="2025-08-14T10:45:14 COT" name="tearDown" finished-at="2025-08-14T10:45:14 COT" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.OrderPlacedTest -->
+    </test> <!-- Order Placed Tests -->
+  </suite> <!-- AutomationExercise Suite -->
+</testng-results>

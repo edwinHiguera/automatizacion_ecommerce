@@ -6,9 +6,10 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pages.*;
 import utils.BaseTest;
+import pages.*;
 import utils.ConfigReader;
+
 
 @Epic("Ecommerce Checkout and Payment")
 @Feature("Payment Process")
